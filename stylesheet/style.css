@@ -115,7 +115,6 @@ nav {
   background: var(--primary-color);
   box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
   height: 100%;
-  animation: animatenavbar 1s linear fowards;
 }
 
 .top-menu li:hover {
@@ -363,7 +362,6 @@ header {
   font-weight: 900;
   background: linear-gradient(135deg, #ec4327, #fed90f, #00a2ff, #09f1b8, #ec4327, #fed90f, #00a2ff, #09f1b8);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 300% 300%;
   animation: gradient 8s ease-in-out infinite;

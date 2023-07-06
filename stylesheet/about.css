@@ -36,7 +36,6 @@
   text-align: center;
   background: linear-gradient(135deg, #ec4327, #ec4327, #34332e);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -48,7 +47,6 @@
   font-weight: 900;
   background: linear-gradient(135deg, #ec4327, #fed90f, #00a2ff, #09f1b8, #ec4327, #fed90f, #00a2ff, #09f1b8);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 300% 300%;
 }
@@ -69,10 +67,10 @@
 }
 
 .about-description p {
-  padding: 2.1rem, 4.06rem, 2.1rem, 4.06rem;
+  padding: 2.1rem 4.06rem 2.1rem 4.06rem;
   font-weight: 400;
   font-size: 0.875rem;
-  color: var(#000);
+  color: #000;
 }
 
 .skills {
@@ -250,7 +248,6 @@
 .button:hover,
 .button:focus {
   background-size: 200%;
-  scroll-behavior: 1.05;
 }
 
 @media screen and (max-width: 768px) {
