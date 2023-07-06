@@ -147,8 +147,9 @@ nav {
 }
 
 .nav-title img {
-  max-width: 9rem;
-  max-height: 4rem;
+   padding: 1rem;
+  max-width: 10rem;
+  max-height: 5rem;
 }
 
 .btn-holder button {
