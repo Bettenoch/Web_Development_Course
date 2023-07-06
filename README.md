@@ -5,7 +5,7 @@
   <img src="assets\images\cvimage2.JPG" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Bett Enock Portfolio</b></h3>
+  <h3><b>BK Web DEV Course</b></h3>
 
 </div>
 
