@@ -147,13 +147,13 @@ nav {
 }
 
 .nav-title img {
-padding: 1rem;
-   width: 8rem;
+  padding: 1rem;
+  width: 8rem;
   height: 5rem;
 }
 
 .btn-holder button {
-   padding: 1rem;
+  padding: 1rem;
   display: flex;
   background: transparent;
   font-size: 1.8rem;
