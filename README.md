@@ -172,10 +172,11 @@ If you like this project give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
+- A big thanks to Cindy Shin the designer and owner of the figma template used in this project
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
