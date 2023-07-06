@@ -44,7 +44,7 @@
 
 .about_Ptext {
   font-weight: 900;
-  background: linear-gradient(135deg, #ec4327, #c93a21, #34332e );
+  background: linear-gradient(135deg, #ec4327, #c93a21, #34332e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 300% 300%;
@@ -149,7 +149,6 @@
 
 .tutors {
   display: grid;
- 
   align-items: center;
   justify-items: center;
 }
@@ -159,7 +158,6 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #e0e0e3;
-
 }
 
 .tutor-chart {
@@ -275,7 +273,6 @@
 }
 
 .cardd {
-  
   background-image: url('../assets/images/floralbg2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,10 +332,12 @@
     0 0 60px rgba(0, 0, 0, 0.1),
     0 0 80px rgba(0, 0, 0, 0.1);
 }
-.stud-name{
+
+.stud-name {
   font-size: 18px;
   color: #fff;
 }
+
 .description {
   font-size: 14px;
   text-align: center;
@@ -358,7 +357,6 @@
 
 .bdn:hover {
   border: 1px solid #da0f0f;
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -374,7 +372,7 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
 .footer-top-container {
@@ -426,13 +424,12 @@
 }
 
 .footer-logo {
- width: 20rem;
+  width: 20rem;
 
   /* min-width: 30%; */
   background-image: url('../assets/images/trans-logo1.png');
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
 
 .footer-description p {
@@ -440,13 +437,16 @@
   font-size: 14px;
   color: #000;
 }
+
 @media screen and (min-width: 768px) {
-  .about-partners{
+  .about-partners {
     display: none;
   }
+
   .footer-bottom-holder {
     background-color: #2e2e2e;
   }
+
   .footer-description-about p {
     color: #fff;
   }

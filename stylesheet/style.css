@@ -302,7 +302,6 @@ nav {
 
 /* ***************HEADER SECTION*************** */
 header {
-  position: relative;
   top: 5rem;
   overflow: hidden;
   height: auto;
@@ -326,8 +325,6 @@ header::after {
   margin-top: 0.8rem;
   padding: 0 1.5rem 0 1.5rem;
 }
-
-
 
 .header-content {
   display: flex;
@@ -366,7 +363,6 @@ header::after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
- 
 }
 
 .header-element.second {
@@ -439,7 +435,8 @@ header::after {
   font-weight: 400;
   text-decoration: underline;
 }
-.program_footer h6{
+
+.program_footer h6 {
   font-weight: 900;
   font-size: 16px;
   color: #fff;
@@ -450,12 +447,13 @@ header::after {
 @media screen and (min-width: 768px) {
   .program_footer h5 {
     display: flex;
-    
   }
-  .program_footer h6{
+
+  .program_footer h6 {
     display: none;
   }
 }
+
 @media screen and (max-width: 768px) {
   .progam_content {
     display: flex;
@@ -500,11 +498,8 @@ header::after {
 }
 
 .speaker-box_img {
-
   width: 18rem;
-  
 }
-
 
 .speaker-box_content {
   gap: 1rem;
