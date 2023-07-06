@@ -25,33 +25,50 @@ closeMenu.addEventListener('click', () => {
 
 // VIEW MORE
 const speakerbox = document.querySelector('#WebDevSpeakers');
+const speakerbox2 = document.querySelector('#WebDevSpeakers1');
+
+const speakers2 = [
+  {
+    name: 'Barack Obama',
+    image: './assets/images/spaeaker1.svg',
+    background: ' Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description: ' As the main venue for new media art production in Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+  },
+
+  {
+    name: 'Phil Jones',
+    image: './assets/images/spaeaker2.svg',
+    background: ' Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description: ' As the main venue for new media art production in Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+  },
+];
 
 const speakers = [
 
   {
     name: 'Barack Obama',
-    image: './assets/images/barack Obama.png',
+    image: './assets/images/spaeaker3.svg',
     background: ' Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description: ' As the main venue for new media art production in Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
 
   {
     name: 'Phil Jones',
-    image: './assets/images/cvimage2.JPG',
+    image: './assets/images/spaeaker4.svg',
     background: ' Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description: ' As the main venue for new media art production in Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
 
   {
     name: 'Barack Obama',
-    image: './assets/images/barack Obama.png',
+    image: './assets/images/spaeaker5.svg',
     background: ' Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description: ' As the main venue for new media art production in Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
 
   {
     name: 'Phil Jones',
-    image: './assets/images/cvimage2.JPG',
+    image: './assets/images/spaeaker6.svg',
     background: ' Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description: ' As the main venue for new media art production in Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
@@ -79,3 +96,26 @@ speakers.forEach((speaker) => {
 });
 
 speakerbox.innerHTML = container;
+
+let container2 = '';
+
+speakers2.forEach((speaker) => {
+  const speakerSection2 = `
+        <li class="speaker-box">
+            <div class=" speaker-box_img"><img src="${speaker.image}" alt="speaker-image"></div>
+            <div class="speaker-box_content">
+                <h2 class="speaker-name">${speaker.name}</h2>
+                <p class="speaker-background">
+                    ${speaker.background}
+                </p>
+                <p class="speaker-description">
+                    ${speaker.description}
+                </p>
+            </div>
+        </li>
+    `;
+
+  container2 += speakerSection2;
+});
+
+speakerbox2.innerHTML = container2;
