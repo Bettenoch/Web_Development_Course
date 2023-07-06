@@ -309,23 +309,25 @@ header {
   background-image: url('../assets/images/prog1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.header__container {
-  margin-top: 0.8rem;
-  padding: 0 1.5rem 0 1.5rem;
   position: relative;
   isolation: isolate;
 }
 
-.header__container::after {
+header::after {
   content: '';
   position: absolute;
   inset: 0;
   background: #ece3e3;
   z-index: -1;
-  opacity: 0.9;
+  opacity: 0.8;
 }
+
+.header__container {
+  margin-top: 0.8rem;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+
 
 .header-content {
   display: flex;
@@ -360,11 +362,11 @@ header {
 
 .header_Ptext {
   font-weight: 900;
-  background: linear-gradient(135deg, #ec4327, #fed90f, #00a2ff, #09f1b8, #ec4327, #fed90f, #00a2ff, #09f1b8);
+  background-image: url("../assets/images/orange2.PNG");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 300% 300%;
-  animation: gradient 8s ease-in-out infinite;
+  background-size: cover;
+ 
 }
 
 .header-element.second {
@@ -374,20 +376,6 @@ header {
 .header-element.second p {
   font-weight: 400;
   color: #515151;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  5% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 /* ***************PROGRAM SECTION*************** */
@@ -445,12 +433,29 @@ header {
 }
 
 .program_footer h5 {
+  display: none;
   color: #fff;
   font-size: 1.25rem;
   font-weight: 400;
   text-decoration: underline;
 }
+.program_footer h6{
+  font-weight: 900;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 50px 20px 50px;
+  background-color: #ff4f38;
+}
 
+@media screen and (min-width: 768px) {
+  .program_footer h5 {
+    display: flex;
+    
+  }
+  .program_footer h6{
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   .progam_content {
     display: flex;
@@ -468,6 +473,8 @@ header {
     text-align: center;
   }
 }
+
+/* =================speaker section================= */
 
 .speakers_container {
   height: auto;
@@ -493,13 +500,11 @@ header {
 }
 
 .speaker-box_img {
-  width: 11rem;
-  height: auto;
+
+  width: 18rem;
+  
 }
 
-.speaker-box_img img {
-  border-radius: 50%;
-}
 
 .speaker-box_content {
   gap: 1rem;
@@ -574,6 +579,7 @@ header {
 /* ======================footer==================== */
 .partnerr-logo {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
   padding: 1rem;
