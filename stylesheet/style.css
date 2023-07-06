@@ -152,6 +152,7 @@ nav {
 }
 
 .btn-holder button {
+   padding: 1rem;
   display: flex;
   background: transparent;
   font-size: 1.8rem;
