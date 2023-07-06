@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://bettenoch.github.io/Portfolio-Setup-Mobile-First)
+- [Live Demo Link](https://bettenoch.github.io/Web_Development_Course/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
